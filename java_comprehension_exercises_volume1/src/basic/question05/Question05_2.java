@@ -9,8 +9,17 @@ import java.io.IOException;
 public class Question05_2 {
 
 	public static void main(String[] args) throws IOException {
-
-		// TODO:ここに実装
+		int[] numberGroup = { 3, 5, 7, 9 };
+		int main = numberGroup[3];
+		if (main == 3) {
+			System.out.println("4番目の要素の値は3です。");
+		} else if (main == 5) {
+			System.out.println("4番目の要素の値は5です。");
+		} else if (main == 7) {
+			System.out.println("4番目の要素の値は7です。");
+		} else {
+			System.out.println("4番目の要素の値は3、5、7以外の値です。");
+		}
 
 	}
 }
